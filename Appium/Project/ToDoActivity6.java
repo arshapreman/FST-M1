@@ -69,8 +69,7 @@ public class ToDoActivity6  extends Gesture
         	    "//android.view.View[@content-desc='Popups Work with popups!']"
         	);
 
-        	int maxSwipes = 5;
-        	while (maxSwipes-- > 0) 
+        	for (int i = 0; i < 5; i++)
         	{
         	    try {
         	        driver.findElement(popupsCard).click();
@@ -110,3 +109,4 @@ public class ToDoActivity6  extends Gesture
 	}
 
 }
+
