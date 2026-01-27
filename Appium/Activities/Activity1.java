@@ -44,10 +44,6 @@ public class Activity1 {
 			
 			driver = new AndroidDriver(serverURL, caps);
 			
-			
-			
-			
-			
 		}
 		@Test
 		public void testMethod()
